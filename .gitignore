@@ -2,3 +2,4 @@
 /slandroid.egg-info
 .env
 __pycache__
+/build

@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="slandroid",
-    version="0.3.5",
+    version="0.3.6",
     packages=find_packages(),
     entry_points={
         "console_scripts": [
@@ -20,7 +20,7 @@ setup(
     long_description_content_type="text/markdown",  # Specify the format of the long description
     author="Ishan Oshada (SL ANDROID TEAM)",
     author_email="ishan.kodithuwakku.offical@gmail.com",
-    url="https://github.com/ishanoshada/slandroid",
+    url="https://github.com/ishanoshada/sl-android",
     license="MIT",
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -56,8 +56,8 @@ setup(
     ],
     install_requires=["requests","packaging"],  # Add dependencies if needed
     project_urls={
-        "Source": "https://github.com/ishanoshada/slandroid",
-        "Bug Reports": "https://github.com/ishanoshada/slandroid/issues",
-        "Documentation": "https://github.com/ishanoshada/slandroid#readme",
+        "Source": "https://github.com/ishanoshada/sl-android",
+        "Bug Reports": "https://github.com/ishanoshada/sl-android/issues",
+        "Documentation": "https://github.com/ishanoshada/sl-android#readme",
     },
 )
