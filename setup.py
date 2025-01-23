@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="slandroid",
-    version="0.3.6",
+    version="0.3.7",
     packages=find_packages(),
     entry_points={
         "console_scripts": [

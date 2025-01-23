@@ -498,7 +498,7 @@ def install_python_packages(script_path):
         print(f"Error installing dependencies: {e}")
 
 # Current version of Slandroid
-CURRENT_VERSION = "0.3.6"
+CURRENT_VERSION = "0.3.7"
 
 def check_for_updates():
     """Check if a newer version of Slandroid is available on PyPI."""

@@ -1,6 +1,6 @@
 
 # Package version
-__version__ = "0.3.6"
+__version__ = "0.3.7"
 
 # Package description
 __description__ = "A universal script runner for multiple programming languages."
