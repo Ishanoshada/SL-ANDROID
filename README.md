@@ -13,8 +13,10 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/ishanoshada/sl-android)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ishanoshada/sl-android)
 
+![help](/help.gif)
 
 **Slandroid** is a universal script runner designed to simplify the execution of scripts written in multiple programming languages. It automatically detects the language of a script, installs the required interpreter or runtime if missing, and runs the script seamlessly. Whether you're working with Python, JavaScript, Bash, Ruby, Java, Go, PHP, Perl, C, C++, Rust, or other languages, Slandroid has you covered.
+
 
 ---
 
