@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="slandroid",
-    version="0.3.2",
+    version="0.3.5",
     packages=find_packages(),
     entry_points={
         "console_scripts": [
@@ -54,7 +54,7 @@ setup(
         "automation",
         "developer tools",
     ],
-    install_requires=[],  # Add dependencies if needed
+    install_requires=["requests","packaging"],  # Add dependencies if needed
     project_urls={
         "Source": "https://github.com/ishanoshada/slandroid",
         "Bug Reports": "https://github.com/ishanoshada/slandroid/issues",

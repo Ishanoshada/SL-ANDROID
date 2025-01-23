@@ -1,2 +1,4 @@
 /dist
 /slandroid.egg-info
+.env
+__pycache__

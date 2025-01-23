@@ -1,8 +1,8 @@
+
 # Slandroid
 
 ![PyPI](https://img.shields.io/pypi/v/slandroid)
 ![License](https://img.shields.io/pypi/l/slandroid)
-
 
 **Slandroid** is a universal script runner designed to simplify the execution of scripts written in multiple programming languages. It automatically detects the language of a script, installs the required interpreter or runtime if missing, and runs the script seamlessly. Whether you're working with Python, JavaScript, Bash, Ruby, Java, Go, PHP, Perl, C, C++, Rust, or other languages, Slandroid has you covered.
 
@@ -17,6 +17,7 @@
 5. [Examples](#examples)
 6. [Contributing](#contributing)
 7. [License](#license)
+8. [Support](#support)
 
 ---
 
@@ -27,6 +28,7 @@
 - **Cross-Platform**: Works on Windows, macOS, and Linux.
 - **Easy to Use**: Just run `slandroid <script_path>` and let Slandroid handle the rest.
 - **Extensible**: Add support for new languages by updating the configuration.
+- **Advanced Options**: Supports environment variables, timeouts, output redirection, and more.
 
 ---
 
@@ -52,21 +54,41 @@ slandroid path/to/script.py
 
 Slandroid will automatically detect the script's language, install any required dependencies, and execute the script.
 
-### Example Commands
+### Advanced Options
 
-- Run a Python script:
+- **Set Environment Variables**:
   ```bash
-  slandroid script.py
+  slandroid --env MY_VAR=value script.py
   ```
 
-- Run a JavaScript script:
+- **Set a Timeout**:
   ```bash
-  slandroid script.js
+  slandroid --timeout 10 script.py
   ```
 
-- Run a Bash script:
+- **Redirect Output to a File**:
   ```bash
-  slandroid script.sh
+  slandroid --output result.txt script.py
+  ```
+
+- **List Supported Languages**:
+  ```bash
+  slandroid --list-languages
+  ```
+
+- **Display Help**:
+  ```bash
+  slandroid --help
+  ```
+
+- **Display Version**:
+  ```bash
+  slandroid --version
+  ```
+
+- **Update Slandroid**:
+  ```bash
+  slandroid --update
   ```
 
 ---
@@ -144,7 +166,7 @@ Hello from JavaScript!
 
 ```bash
 #!/bin/bash
-echo "Hello from Bash!"
+echo("Hello from Bash!");
 ```
 
 Run the script:
@@ -155,6 +177,27 @@ slandroid script.sh
 Output:
 ```
 Hello from Bash!
+```
+
+---
+
+### Rust Script (`script.rs`)
+
+```rust
+// script.rs
+fn main() {
+    println!("Hello from Rust!");
+}
+```
+
+Run the script:
+```bash
+slandroid script.rs
+```
+
+Output:
+```
+Hello from Rust!
 ```
 
 ---
